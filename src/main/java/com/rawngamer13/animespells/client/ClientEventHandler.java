@@ -1,10 +1,15 @@
-@SideOnly(Side.CLIENT)
-@Mod.EventBusSubscriber
+package com.rawngamer13.animespells.client;
+
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.client.event.RenderPlayerEvent;
+
+@Mod.EventBusSubscriber(Side.CLIENT)
 public class ClientEventHandler {
     
     @SubscribeEvent
-    public static void onRenderSky(RenderSkyEvent.Pre event) {
-        // Aquí irá la lógica para cambiar el cielo a rojo carmesí
-        // cuando el hechizo Doom esté activo
+    public static void onClientTick(net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent event) {
+        // Client tick events
     }
 }
