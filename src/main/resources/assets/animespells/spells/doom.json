@@ -1,0 +1,12 @@
+{
+  "name": "Doom",
+  "description": "Crea un agujero negro devastador que absorbe todo a su paso. El cielo se vuelve rojo carmesí mientras la gravedad destructiva consume todo en el área.",
+  "canBeCastBy": ["WIZARD", "BATTLEMAGE", "WARLOCK"],
+  "type": "projectile",
+  "element": "DESTRUCTION",
+  "mana": 200,
+  "cooldown": 60,
+  "baseDamage": 15,
+  "castTime": 20,
+  "duration": 200
+}
